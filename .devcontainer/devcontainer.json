@@ -1,5 +1,4 @@
 {
   "image": "ubuntu",
-  "workspaceMount" : "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached",
   "workspaceFolder": "/app" 
 }
