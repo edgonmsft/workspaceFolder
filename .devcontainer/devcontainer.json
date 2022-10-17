@@ -11,9 +11,9 @@
     },
     "remoteUser": "mock-remote",
     "containerUser": "mock-container",
-    "onCreateCommand": "echo onCreate && sleep 2 && echo $USER > USER.txt",
+    "onCreateCommand": "mkdir /workspaces/app",
     "updateContentCommand": "echo updateContent && sleep 2 && echo finishedUpdateContent",
     "postAttachCommand": "echo postAttach >> postAttach.txt",
-    "workspaceFolder": "/workspaces/workspaceFolder/.devcontainer"
+    "workspaceFolder": "/workspaces/app"
     //"workspaceMount" : "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached"
 }
