@@ -14,6 +14,6 @@
     "onCreateCommand": "echo onCreate && sleep 2 && echo $USER > USER.txt",
     "updateContentCommand": "echo updateContent && sleep 2 && echo finishedUpdateContent",
     "postAttachCommand": "echo postAttach >> postAttach.txt",
-    "workspaceFolder": "/app",
-    "workspaceMount" : "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached"
+    "workspaceFolder": "/app"
+    //"workspaceMount" : "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached"
 }
